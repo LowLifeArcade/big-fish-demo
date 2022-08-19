@@ -41,7 +41,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 10px;
+    padding: 0 30px;
 }
 .sub-content {
     border: solid 1px;
@@ -52,7 +52,7 @@ main {
 }
 @media (min-width: 900px) {
     .container {
-        width: 768px;
+        max-width: 768px;
     }
     .ad1 {
         color: white;
